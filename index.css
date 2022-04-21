@@ -31,8 +31,7 @@ section {
 
 h2 {
   font-size: 48px;
-  font-family: Poppins;
-  font-weight: 700, Bold;
+  font-weight: bold;
 }
 
 section > * {
@@ -43,11 +42,11 @@ section > * {
 }
 
 ul {
- display: flex;
- list-style: none;
- justify-content: space-between;
- width: 50%;
- align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
 }
 
 li {
