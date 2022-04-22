@@ -58,8 +58,7 @@ section>* {
 ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
-  width: 50%;
+  gap: 20px;
   align-items: center;
 }
 
@@ -104,38 +103,35 @@ a {
 
 }
 
-#rectangle5 {
-  top: 220px;
-  width: 45px;
-  height: 15px;
-}
-
 #Ellipse4 {
-  bottom: 40px;
-  width: 15px;
-  top: 220px;
+  width: 35px;
+  align-self: center;
 }
 
 #Ellipse12 {
-  top: 220px;
   width: 45px;
   height: 15px;
 }
 
 #Ellipse13 {
-  bottom: 40px;
-  width: 15px;
-  top: 220px;
+  position: absolute;
+  top: 10px;
+  width: 35px;
 }
 
 .bg>* {
   position: absolute;
 }
 
-@media screen and (min-width: 440px) {
-  .mobile {
-    max-width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
+.connect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgdown {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
