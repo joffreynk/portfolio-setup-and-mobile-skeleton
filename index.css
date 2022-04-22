@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500;1,600;1,800;1,900&display=swap')
+
 * {
   margin: 0;
   padding: 0;
@@ -24,11 +26,15 @@ header img {
   stroke: solid;
 }
 
+a {
+  text-decoration: none;
+}
+
 header a {
   color: #6070ff;
   cursor: pointer;
   font-size: 22px;
-  font-Weight: bold;
+  font-weight: bold;
 }
 
 section {
@@ -68,10 +74,6 @@ li {
 #connect {
   color: #7f8cff;
   cursor: pointer;
-}
-
-* a {
-  text-decoration: none;
 }
 
 .bg {
