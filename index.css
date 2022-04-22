@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.mobile {
+  background-image: url('./images/header-background-mobile.png');
 }
 
 header {
@@ -15,30 +20,36 @@ header img {
   width: 45px;
   height: 45px;
   cursor: pointer;
+  color: #6070FF;
+  stroke: solid;
 }
 
-header h3 {
-  color: blue;
+header a {
+  color: #6070FF;
   cursor: pointer;
   font-size: 22px;
+  font-Weight: 700, Bold;
 }
 
 section {
-  /* background-image: url("<svg width="1440" height="916" viewBox="0 0 1440 916" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M0 0H1440V916H146C65.3664 916 0 850.634 0 770V0Z" fill="blue"/>
-  </svg>"
-  ); */
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 4% 7%;
 }
 
-h2 {
+seection h1 {
   font-size: 48px;
   font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
 }
 
 section > * {
+  margin-top: 40px;
   flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 1;
@@ -58,7 +69,7 @@ li {
 }
 
 #connect {
-  color: rgb(29, 177, 226);
+  color: #7F8CFF;
   cursor: pointer;
 }
 
@@ -69,3 +80,59 @@ li {
     margin-right: 20%;
   }
 }
+a {
+  text-decoration: none;
+}
+
+.bg {
+  z-index: 2000;
+  position: relative;
+}
+
+#Ellipse11 {
+  position: absolute;
+  max-width: 30px;
+  top: -15px;
+  left: -15px;
+}
+
+#Ellipse3 {
+  position: absolute;
+  width: 40px;
+  right: -20px;
+  top: -10px;
+}
+
+#Rectangle4 {
+  width: 45px;
+  height: 25px;
+  top: -25px;
+  right: -15px ;
+
+}
+
+#rectangle5 {
+  top: 220px;
+  width: 45px;
+  height: 15px;
+}
+ #Ellipse4 {
+  bottom: 40px;
+  width: 15px;
+  top: 220px;
+ }
+
+ #Ellipse12 {
+  top: 220px;
+  width: 45px;
+  height: 15px;
+}
+ #Ellipse13 {
+  bottom: 40px;
+  width: 15px;
+  top: 220px;
+ }
+
+ .bg > * {
+   position: absolute;
+ }
