@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: Poppins;
 }
 
 .mobile {
@@ -20,15 +20,15 @@ header img {
   width: 45px;
   height: 45px;
   cursor: pointer;
-  color: #6070FF;
+  color: #6070ff;
   stroke: solid;
 }
 
 header a {
-  color: #6070FF;
+  color: #6070ff;
   cursor: pointer;
   font-size: 22px;
-  font-Weight: 700, Bold;
+  font-Weight: 700;
 }
 
 section {
@@ -38,17 +38,16 @@ section {
   margin: 4% 7%;
 }
 
-seection h1 {
-  font-size: 48px;
+section h1 {
   font-weight: bold;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-section > * {
+section>* {
   margin-top: 40px;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -69,17 +68,11 @@ li {
 }
 
 #connect {
-  color: #7F8CFF;
+  color: #7f8cff;
   cursor: pointer;
 }
 
-@media screen and (min-width: 440px) {
-  .mobile {
-    max-width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
+
 a {
   text-decoration: none;
 }
@@ -107,7 +100,7 @@ a {
   width: 45px;
   height: 25px;
   top: -25px;
-  right: -15px ;
+  right: -15px;
 
 }
 
@@ -116,23 +109,33 @@ a {
   width: 45px;
   height: 15px;
 }
- #Ellipse4 {
+
+#Ellipse4 {
   bottom: 40px;
   width: 15px;
   top: 220px;
- }
+}
 
- #Ellipse12 {
+#Ellipse12 {
   top: 220px;
   width: 45px;
   height: 15px;
 }
- #Ellipse13 {
+
+#Ellipse13 {
   bottom: 40px;
   width: 15px;
   top: 220px;
- }
+}
 
- .bg > * {
-   position: absolute;
- }
+.bg>* {
+  position: absolute;
+}
+
+@media screen and (min-width: 440px) {
+  .mobile {
+    max-width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
