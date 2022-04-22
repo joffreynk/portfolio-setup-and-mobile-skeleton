@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,500;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile {
+  background-image: url('./images/header-background-mobile.png');
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 7%;
+  align-items: center;
+}
+
+header img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  color: #6070ff;
+  stroke: solid;
+}
+
+header a {
+  color: #6070ff;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 4% 7%;
+}
+
+section h1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+section > * {
+  margin-top: 40px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-top: 15px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+li {
+  cursor: pointer;
+}
+
+#connect {
+  color: #7f8cff;
+  cursor: pointer;
+}
+
+.bg {
+  z-index: 2000;
+  position: relative;
+}
+
+#Ellipse11 {
+  position: absolute;
+  max-width: 30px;
+  top: -15px;
+  left: -15px;
+}
+
+#Ellipse3 {
+  position: absolute;
+  width: 40px;
+  right: -20px;
+  top: -10px;
+}
+
+#Rectangle4 {
+  width: 45px;
+  height: 25px;
+  top: -25px;
+  right: -15px;
+}
+
+#Ellipse4 {
+  width: 35px;
+  align-self: center;
+}
+
+#Ellipse12 {
+  width: 45px;
+  height: 15px;
+}
+
+#Ellipse13 {
+  position: absolute;
+  top: 10px;
+  width: 35px;
+}
+
+.bg > * {
+  position: absolute;
+}
+
+.connect {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgdown {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
